@@ -2,40 +2,46 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Examen DOM</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .boton {
+      font-size: 20px;
+      padding: 15px 30px;
+      margin: 20px;
+      cursor: pointer;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: white;
+    }
+    .boton:hover {
+      background-color: #eee;
+    }
+  </style>
 </head>
 <body>
-    <!-- Ejercecio 1 -->
 
-  <h1 id="titulo">Título original</h1>
-  <p id="parrafo">Texto original</p>
-  <hr>
-    <!-- Ejercecio 2 -->
+  <h1>Examen DOM</h1>
 
+  <button class="boton" onclick="location.href='ejer1-4/index.html'">
+    Ejercicios 1 - 4
+  </button>
 
-    <p id="descripcion">Descripción original de la imagen</p>
-    <img id="mi-imagen" src="imagen1.png" alt="Imagen original" width="300">
+  <button class="boton" onclick="location.href='ejer1-teclado/index.html'">
+    Teclado numérico  </button>
 
+   <button class="boton" onclick="location.href='ejer2-alfabetico/index.html'">
+  Teclado alfabético
+</button>
 
-    <!-- Ejercecio 3 -->
-
-     <hr>
-
-    <h2>Ejercicio 3</h2>
-
-    <h1 id="titulo-estilo">Hola, mundo</h1>
-
-
-    <!-- Ejercecio 4 -->
-
-    <hr>
-
-    <h2>Ejercicio 4</h2>
-
-    <div id="contenedor"></div>
-
-
-
-  <script src="script.js"></script>
 </body>
 </html>

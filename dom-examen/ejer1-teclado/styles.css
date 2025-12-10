@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#teclado {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.tecla {
+  width: 90px;
+  height: 90px;
+  border: 3px solid black;
+  border-radius: 4px;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+.tecla:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
