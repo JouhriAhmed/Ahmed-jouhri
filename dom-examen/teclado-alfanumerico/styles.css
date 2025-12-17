@@ -68,3 +68,22 @@ h1 {
   background: yellow;
   color: black;
 }
+#contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#letras {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  justify-content: center;
+}
+
+#numeros {
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
+  justify-content: center;
+}

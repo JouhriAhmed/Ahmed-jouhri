@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#mensaje {
+  height: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#tablero {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.celda {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #999;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.verde { background: green; color: white; }
+.amarillo { background: gold; color: black; }
+.gris { background: lightgray; color: black; }
+
+.controles {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#teclado {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  gap: 8px;
+  justify-content: center;
+}
+
+.tecla {
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
